@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Teddy Kwasigroch's Dice Roller
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Dice Roller Game</h1>
+            <p>Hello! This simple program will automatically roll 5 dice on page load. There is a button below that will reroll all 5 dice if you need.<br>You may also
+                press enter on your keyboard to reroll the dice. Have fun rolling!</p>
+            <div class="dice-display">
+                <input type="text" id="dice1" readonly>
+                <input type="text" id="dice2" readonly>
+                <input type="text" id="dice3" readonly>
+                <input type="text" id="dice4" readonly>
+                <input type="text" id="dice5" readonly>
+            </div>
+            <button id="rollButton" autofocus onclick="rollDice()">Roll Dice</button>
+        </div>
+    </body>
+
+    
+</html>
